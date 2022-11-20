@@ -8,3 +8,7 @@ audio.sys.offload.pstimeout.secs=3
 
 # Cached app compaction
 persist.device_config.activity_manager.use_compaction=true
+
+# Camera
+ro.hardware.camera=xiaomi
+ro.com.google.lens.oem_camera_package=com.android.camera
