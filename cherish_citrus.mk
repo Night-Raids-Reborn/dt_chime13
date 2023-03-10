@@ -13,6 +13,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 USE_LEGACY_BOOTANIMATION := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_ENABLE_BLUR := false
+WITH_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := cherish_citrus
