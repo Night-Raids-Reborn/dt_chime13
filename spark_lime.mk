@@ -27,4 +27,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Maintainer
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.spark.maintainer=ash(hac4us)xIczYn
+    ro.spark.maintainer=Darknius
