@@ -8,7 +8,7 @@ sleep 1
 
 
 # Clone kernel
-git clone https://github.com/hac4us06/kernel_xiaomi_chime -b pyro kernel/xiaomi/chime
+git clone https://github.com/hac4us06/kernel_xiaomi_chime -b pyro-wip kernel/xiaomi/chime
 
 # Clone vendor
 git clone https://gitlab.com/chimeoss/vendor_xiaomi_citrus -b lineage-20 vendor/xiaomi/citrus
