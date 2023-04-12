@@ -7,6 +7,9 @@
 # Inherit from citrus device
 $(call inherit-product, device/xiaomi/chime/device-citrus.mk)
 
+# MiuiCamera
+$(call inherit-product-if-exists, vendor/xiaomi/miuicamera/config.mk)
+
 # Inherit some common Spark stuff.
 $(call inherit-product, vendor/spark/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
