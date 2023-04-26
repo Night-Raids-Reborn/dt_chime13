@@ -41,16 +41,6 @@ PRODUCT_PACKAGES += \
     AntHalService-Soong \
     com.dsi.ant@1.0.vendor
 
-# Add missing classes
-PRODUCT_PACKAGES += \
-    pasrservice \
-    PerformanceMode \
-    PowerSaveMode \
-    workloadclassifier \
-    QPerformance \
-    QXPerformance \
-    UxPerformance
-
 # APN
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/overlays/CarrierConfig/etc/apns-conf.xml:system/etc/apns-conf.xml
