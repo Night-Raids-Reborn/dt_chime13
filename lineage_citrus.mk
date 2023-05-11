@@ -9,12 +9,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common PixelOS stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from citrus device
 $(call inherit-product, device/xiaomi/citrus/device.mk)
 
-PRODUCT_NAME := aosp_citrus
+PRODUCT_NAME := lineage_citrus
 PRODUCT_DEVICE := citrus
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
@@ -26,3 +26,18 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="citrus-user 12 SKQ1.211202.001 V13.0.3.0.SJFMIXM release-keys"
 
 BUILD_FINGERPRINT := POCO/citrus_global/citrus:12/SKQ1.211202.001/V13.0.3.0.SJFMIXM:user/release-keys
+
+RISING_CHIPSET := "Snapdragon 662"
+RISING_MAINTAINER := "Darknius"
+
+# Pixel customization
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ARCORE := false
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_USE_PIXEL_FINGERPRINT := true
+TARGET_SUPPORTS_QUICK_TAP := true
+WITH_GMS := true
+TARGET_CORE_GMS := false
+
+# # Face Unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
