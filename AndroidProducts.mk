@@ -5,13 +5,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_citrus.mk \
-    $(LOCAL_DIR)/cherish_lime.mk
+    $(LOCAL_DIR)/superior_citrus.mk \
+    $(LOCAL_DIR)/superior_lime.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_citrus-user \
-    cherish_citrus-userdebug \
-    cherish_citrus-eng \
-    cherish_lime-user \
-    cherish_lime-userdebug \
-    cherish_lime-eng
+    superior_citrus-user \
+    superior_citrus-userdebug \
+    superior_citrus-eng \
+    superior_lime-user \
+    superior_lime-userdebug \
+    superior_lime-eng
