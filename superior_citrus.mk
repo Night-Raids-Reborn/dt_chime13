@@ -35,6 +35,3 @@ WITH_GMS := true
 
 # # Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
-
-# Enable ThinLTO Source wide Conditionally.
-TARGET_BUILD_WITH_LTO := true
